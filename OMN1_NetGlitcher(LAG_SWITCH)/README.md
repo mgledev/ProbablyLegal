@@ -1,6 +1,7 @@
 OMN1_NETGLITCHER
 
-Version: 1.3Author: @mgledevStatus: Private Educational Tool
+Version: 1.3
+Author: @mgledevStatus: Private Educational Tool
 
 🎯 Overview
 
@@ -54,9 +55,6 @@ If you'd like to see how it works:
 Clone the repo
 
 Use the binary release or compiled .pyz / .pyc file (when provided)
-
-📷 Screenshot
-
  
 
 ❌ This repo does not contain source code
