@@ -13,6 +13,45 @@ A real-time computer vision system that analyzes a streamed gameplay window usin
 
 > 🧠 Combines AI, object detection, serial communication, and human-like behavior simulation (e.g., random delay and probabilistic triggers).
 
+
+🌐 OMN1_NetGlitcher/
+
+    A controlled network glitch tool for testing game engines, latency behavior, and UDP resilience — all locally and legally.
+
+OMN1_NetGlitcher is an educational lagswitch-style tool that simulates short bursts of packet loss or delay on Linux and Windows.
+
+🧩 Built by mgledev for testing, research, and reverse-engineering purposes, it allows you to:
+
+    Temporarily block UDP, TCP, or both, either manually or via keyboard shortcut (e.g., press U to lag for 5 seconds)
+
+    Emulate network instability to analyze game engine behavior (rollback, interpolation, netcode handling)
+
+    Run offline with bots or in controlled environments
+
+    Test how far a player can move during a lag spike before sync catches up
+
+🎯 Use cases include:
+
+    Reverse-engineering movement prediction in FPS games
+
+    Evaluating anti-lag mechanisms
+
+    Simulating real-world packet drops in educational labs
+
+    Teaching students about UDP/TCP reliability and recovery
+
+⚠️ Legal & Ethical Use:
+
+This tool is:
+
+🧪 For educational sandbox testing
+🚫 Not to be used in online matches or against other players
+🛑 Not a cheat — it simulates client-side lag in isolated setups only
+
+🔒 A Windows version also exists (WinDivert-based) but is private.
+
+🛠️ Requires: iptables (Linux), or WinDivert (Windows)
+
 ---
 
 ## ⚠️ Legal & Ethical Use
